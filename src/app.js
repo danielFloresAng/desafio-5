@@ -38,7 +38,7 @@ app.use(
       ttl: 15,
       // mongoOptions: {useNewUrlParser: true, useUnifiedTopology:true},
     }),
-    // store: new fileStorage({ path: "./sessions", ttl: 100, retries: 0 }),
+
     secret: config.SECRET,
     resave: false,
     saveUninitialized: false,
